@@ -73,7 +73,7 @@
     };
 }(Highcharts));
 
-Highcharts.chart('container-pegawai', {
+Highcharts.chart('container-absensi', {
     chart: {
         type: 'pie'
     },
@@ -114,14 +114,20 @@ Highcharts.chart('container-pegawai', {
         },
         colorByPoint: true,
         data: [{
-            name: 'Pegawai Tetap',
-            y: 44
+            name: 'Terlambat',
+            y: 10
         }, {
-            name: 'Calon Pegawai',
-            y: 8
+            name: 'Alpa',
+            y: 4
         }, {
-            name: 'Pegawai Kontrak',
-            y: 88
+            name: 'Hadir',
+            y: 80
+        },{
+            name: 'Cuti',
+            y: 3
+        },{
+            name: 'Izin',
+            y: 2
         }, ]
     }]
 });
