@@ -82,21 +82,23 @@
 						                      <div class="form-group row">
 						                        <div class="col-lg-3">
 						                          <label>Nama Pegawai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000000001 - Muhammad Nasrullah, S.Kom</option>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">000000003 - Deddy Rafsanjani, S.Sos</option>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000000002 - Oklan Zulkifli, SE</option>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">000000004 - Nursiah, S.Kom</option>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000000005 - Muhammad Ramadhan Lerrick, ST</option>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
 
 					 														</select>
@@ -106,27 +108,39 @@
 						                          <label>Departemen :</label>
 																		<select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
+                                      <option value="4">Keuangan</option>
                                       <option value="5">Operasional</option>
+                                      <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
                                   </select>
 						                        </div>
 												<div class="col-lg-2">
 						                          <label>Divisi :</label>
-																		 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Direksi</option>
-                                      <option value="4">Umum dan Kepegawaian</option>
-                                      <option value="5" selected="">Hukum dan Humas</option>
+																		  <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
-                                      <option value="12" >Pengelolaan</option>
-                                      <option value="12" >Produksi</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
+                                      <option value="12" >Teknologi</option>
+                                      <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
-                                  </select>
+									  </optgroup>
+                                      <option value="12" >Keseluruhan</option>
+
+                                </select>
 						                        </div>
 												
 												<div class="col-lg-2">
@@ -178,11 +192,11 @@
                   <div class="kt-portlet__body">
 										<ul class="nav nav-pills nav-fill" role="tablist">
 											<li class="nav-item dropdown">
-													<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background:#ef5325 !important; color:#fff !important">2023</a>
+													<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background:#4AB3F4 !important; color:#fff !important">2026</a>
 													<div class="dropdown-menu">
-														<a class="dropdown-item" data-toggle="tab" href="#">2022</a>
-														<a class="dropdown-item" data-toggle="tab" href="#">2021</a>
-														<a class="dropdown-item" data-toggle="tab" href="#">2020</a>
+														<a class="dropdown-item" data-toggle="tab" href="#">2025</a>
+														<a class="dropdown-item" data-toggle="tab" href="#">2024</a>
+														<a class="dropdown-item" data-toggle="tab" href="#">2023</a>
 													</div>
 												</li>
 												<li class="nav-item">
@@ -201,13 +215,13 @@
 													<a class="nav-link" data-toggle="tab" href="#kt_tabs_3_1">Mei</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" data-toggle="tab" href="#kt_tabs_3_1">Juni</a>
+													<a class="nav-link  active" data-toggle="tab" href="#kt_tabs_3_1">Juni</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" data-toggle="tab" href="#kt_tabs_3_1">Juli</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link active" data-toggle="tab" href="#kt_tabs_3_1">Agustus</a>
+													<a class="nav-link" data-toggle="tab" href="#kt_tabs_3_1">Agustus</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" data-toggle="tab" href="#kt_tabs_3_1">September</a>
@@ -544,7 +558,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">Kerja Hari Libur</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -801,7 +815,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1061,7 +1075,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1318,7 +1332,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1579,7 +1593,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1836,7 +1850,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
