@@ -7,7 +7,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Master Data
+                    Data
                 </h3>
             <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -194,70 +194,116 @@
 				<!--end::Form-->
 			</div>
             <!--begin::End-->
+<div class="row">
+								
+								
+								
+								<div class="col-xl-12">
 
-			<!--begin:: Widgets/Stats-->
-			<div class="kt-portlet">
-				<div class="kt-portlet__body  kt-portlet__body--fit">
-					<div class="row row-no-padding row-col-separator-lg">
-						<div class="col-md-12 col-lg-6 col-xl-3">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Total
-										</h4>
-										<span class="kt-widget24__desc">
-											Pegawai Tetap
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-brand">
-										40
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-3">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Pegawai Pria
-										</h4>
-										<span class="kt-widget24__desc">
-											Statistik Pegawai Pria
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-success">
-										30
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-3">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Pegawai Wanita
-										</h4>
-										<span class="kt-widget24__desc">
-											Statistik Pegawai Wanita
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-danger">
-										10
-									</span>
-								</div>
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label" style="margin-left:56px">
+												<h3 class="kt-portlet__head-title">
+													Statistik
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar" style="margin-right:56px">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													2026
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+														
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
+													</div>
+												</div>
+												<div class="kt-widget17__stats">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total Project
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>556</b></span>
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																On Going
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>1.471</b></span>
+															</span>
+														</div>
+<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Progress
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>2.363</b></span> 
+															</span>
+														</div>
+<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Selesai
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>1.432</b></span>
+															</span>
+														</div>
+														</div>
+<div class="kt-widget17__items">
 
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-3">
+
+														
+														
+													</div>
+													
+													
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!--end:: Widgets/Activity-->
+								</div>
+								
+								
+
+							<!--End::Section-->
+
 							
+
+						
 						</div>
-					</div>
-				</div>
-			</div>
-			<!--end:: Widgets/Stats-->
+			
 
 			<div class="kt-portlet kt-portlet--mobile ">
 				<div class="kt-portlet__body">
@@ -298,23 +344,18 @@
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="project-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																	 <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
+																			
 																		</li>
-                                                                        <li class="kt-nav__item">
-																			<a href="project-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		
-																		
-																		
-																	</ul>
+        </ul>
 																</div>
 															</div></td>
 										  </tr>
@@ -334,18 +375,18 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <li class="kt-nav__item">
-																			<a href="project-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+												    <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
+																			
 																		</li>
-                                                                        <li class="kt-nav__item">
-																			<a href="project-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
+        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -365,18 +406,18 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												   <li class="kt-nav__item">
-																			<a href="project-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+												    <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
+																			
 																		</li>
-                                                                        <li class="kt-nav__item">
-																			<a href="project-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
+        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -396,18 +437,18 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <li class="kt-nav__item">
-																			<a href="project-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+												    <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
+																			
 																		</li>
-                                                                        <li class="kt-nav__item">
-																			<a href="project-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
+        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -428,18 +469,18 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <li class="kt-nav__item">
-																			<a href="project-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+												    <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
+																			
 																		</li>
-                                                                        <li class="kt-nav__item">
-																			<a href="project-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
+        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -459,18 +500,18 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <li class="kt-nav__item">
-																			<a href="project-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+												    <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
+																			
 																		</li>
-                                                                        <li class="kt-nav__item">
-																			<a href="project-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
+        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -491,8 +532,16 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
         </ul>
       </div>
   </div></td>
@@ -513,9 +562,17 @@
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
         </ul>
       </div>
   </div></td>
@@ -536,9 +593,17 @@
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
         </ul>
       </div>
   </div></td>
@@ -559,9 +624,17 @@
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
         </ul>
       </div>
   </div></td>
@@ -582,9 +655,17 @@
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
         </ul>
       </div>
   </div></td>
@@ -606,8 +687,16 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit Project</span> </a> </li>
+        <li class="kt-nav__item"> <a href="project-print.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
         </ul>
       </div>
   </div></td>
