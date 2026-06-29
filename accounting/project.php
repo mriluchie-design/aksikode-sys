@@ -292,7 +292,7 @@
 												<td style="text-align:center" nowrap=""> <div class="progress">
 													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td style="text-align:center" nowrap=""><span class="btn btn-brand btn-sm">On Going</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -325,13 +325,13 @@
 												<td nowrap="nowrap" style="text-align:left">Epass Cabang Manado</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">8 September 2026</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Team-2</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="progress">
 												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
 											    </div></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -354,7 +354,7 @@
 												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
 												  </div></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -377,7 +377,7 @@
 												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
 												  </div></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -401,7 +401,7 @@
 												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
 												  </div></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -418,13 +418,13 @@
 												<td nowrap="nowrap" style="text-align:left">Epass Cabang Tarakan</td>
 												<td nowrap="nowrap" style="text-align:center">10 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">18 September 2026</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Team-2</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="progress">
 												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
 												  </div></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -447,7 +447,7 @@
     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
   </div></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
@@ -470,7 +470,7 @@
     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
   </div></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
@@ -493,7 +493,7 @@
     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
   </div></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
@@ -510,13 +510,13 @@
   <td nowrap="nowrap" style="text-align:left">Epass Cabang Pare-Pare</td>
   <td nowrap="nowrap" style="text-align:center">20 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">28 September 2026</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Team-2</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="progress">
     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
   </div></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
@@ -539,7 +539,7 @@
     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
   </div></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
@@ -562,7 +562,7 @@
     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
   </div></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">On Going</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">On Going</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
