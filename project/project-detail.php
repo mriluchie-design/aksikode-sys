@@ -7,12 +7,12 @@
 		<div class="kt-subheader__main">
 			 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Form 
+                    Detail 
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											TAMBAH PROJECT</span>
+											PROJECT</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -48,17 +48,7 @@ function goBack() {
 
 <!-- begin:: Content -->
 <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
-	<!--Begin::Alert-->
-	<div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
-		<div class="alert-icon"><i class="fa fa-info-circle"></i></div>
-		<div class="alert-text">Isikan Bidang yang bertandakan <span style="color:#ff0000">*</span> </div>
-		<div class="alert-close">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true"><i class="la la-close"></i></span>
-			</button>
-		</div>
-	</div>
-	<!--end::Alert-->
+	
 
 	<!--Begin:: App Content-->
 
@@ -74,15 +64,41 @@ function goBack() {
 											<ul class="nav nav-pills nav-fill" role="tablist">
 												<li class="nav-item m-tabs__item">
 													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_6_1" role="tab">
+														<i class="flaticon-line-graph"></i> Dashboard
+													</a>
+												</li>
+<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_2" role="tab">
 														<i class="fa fa-handshake"></i> Data Project
 													</a>
 												</li>
-												
 												<li class="nav-item m-tabs__item">
 													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_3" role="tab">
+														<i class="fa fa-calendar-alt"></i>Time Schedule
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_4" role="tab">
+														<i class="fa fa-list-ol"></i>Data Tugas
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_5" role="tab">
+														<i class="fa fa-file-upload"></i>Laporan
+													</a>
+												</li>
+
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_6" role="tab">
+														<i class="fa fa-clipboard-list"></i>Dokumen Pendukung
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_7" role="tab">
 														<i class="fa fa-users"></i>Data Team
 													</a>
 												</li>
+
 												
 											</ul>
 												
@@ -93,92 +109,179 @@ function goBack() {
 										<div class="tab-content">
 											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
 												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+<div class="row">
+								
+								
+								
+								<div class="col-xl-12">
+
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label" style="margin-left:56px">
+												<h3 class="kt-portlet__head-title">
+													Statistik Tugas
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar" style="margin-right:56px">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													2026
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+														
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
+													</div>
+												</div>
+												<div class="kt-widget17__stats">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total Tugas
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>556</b></span>
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Belum Selesai
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>1.471</b></span>
+															</span>
+														</div>
+<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Selesai
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>2.363</b></span> 
+															</span>
+														</div>
+<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Terlambat
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:18px;" class="kt-nav__link kt-font-danger" data-toggle="modal" data-target="#modal_hadir"><b>1.432</b></span>
+															</span>
+														</div>
+														</div>
+<div class="kt-widget17__items">
+
+
+														
+														
+													</div>
+													
+													
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!--end:: Widgets/Activity-->
+								</div>
+								
+								
+
+							<!--End::Section-->
+
+							
+
+						
+						</div>
 									<div class="row">
 										<div class="col-lg-12">
                       <div class="form-group row">
-																<div class="col-xl-9">
+																<div class="col-xl-5">
 
 									<!--begin::Portlet-->
 									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Project</div><br><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Ringkasan Project</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
 																									<div class="form-group row">
-																										<div class="col-lg-3">
-                          <label class="">Nomor :</label>
+																										<div class="col-lg-12">
+                          <label class="">Nama Project :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001/AK/PR/0626">
                       </div>
                         </div>
-						<div class="col-lg-3">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori Pelanggan :</label>
-                         <select class="form-control kt-selectpicker" data-live-search="true">
-						
-														
-														<option>Personal</option>
-														<option>BUMN</option>
-														<option>Pemerintah Provinsi</option>
-														<option>Pemerintah Daerah</option>
-														<option>Swasta</option>
-														
-														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														
-													</select>
+
+                        </div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+																										<div class="col-lg-6">
+                          <label class="">Tanggal Mulai :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="30 September 2026">
+                      </div>
                         </div>
 <div class="col-lg-6">
-														<label>Pilih Pelanggan :</label>
-														 <select class="form-control form-control kt-selectpicker" data-live-search="true">
-														<option>PT. Angkasa Pura Indonesia (Persero)</option>
-														<option>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
-														<option>PT. Pelabuhan Indonesia (Persero) Regional 4 - Cabang Makassar</option>
-														
-														</select>
+                          <label class="">Tanggal Selesai :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="30 Oktober 2026">
+                      </div>
+                        </div>
+                        </div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						 <div class="form-group row">
+						
+<div class="col-lg-3">
+                          <label class="">Progress :</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled="">
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Hari</span>
 													</div>
+												</div>
+                        </div>
+<div class="col-lg-3">
+                          <label class="">Tersisa :</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="364" aria-describedby="basic-addon2" disabled="">
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Hari</span>
+													</div>
+												</div>
+                        </div>
+<div class="col-lg-6">
+                          <label>Progres Keseluruhan :</label>
+                         <div class="progress">
+													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div>
+                        </div>
                         </div>
 												
                     
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						 <div class="form-group row">
-						<div class="col-lg-6">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Pekerjaan" data-html="true">*</code> Nama Pekerjaan :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
-                        </div>
-<div class="col-lg-2" >
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Tanggal Mulai" data-html="true">*</code> Tanggal Mulai :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-2" >
-                          <label>Tanggal Deadline :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
 						
-						
-						<div class="col-lg-2" >
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Tanggal Selesai" data-html="true">*</code> Tanggal Selesai :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-																										</div>
 																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 																										<div class="form-group row">
 						
@@ -196,19 +299,26 @@ function goBack() {
 					  
 					  
                       </div>
-<div class="col-xl-3">
+<div class="col-xl-4">
 
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br>
+						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
-								<div class="form-group">
-									<label>Deskripsi :</label>
-									<textarea class="form-control" id="exampleTextarea" rows="7" placeholder=""></textarea>
-								</div>
+								<div class="col-lg-12">
+                          <label>Progres Keseluruhan :</label>
+                         <div class="progress">
+													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div>
+                        </div>
+                        </div>
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								
+								 <div class="form-group">
+<div class="col-lg-12">
+                          <label>Progres Belum Selesai :</label>
+                         <div class="progress">
+													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div>
+                        </div>
 							</div>
 						</div>
 					</div>
@@ -249,14 +359,134 @@ function goBack() {
 
 								</div>
 											</div>
+
+											<div class="tab-pane" id="m_tabs_6_2" role="tabpanel">
+												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+									<div class="row">
+										
+																<div class="col-xl-4">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Ringkasan Project</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="form-group row">
+																										<div class="col-lg-6">
+                          <label class="">Tanggal Mulai :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001/AK/PR/0626">
+                      </div>
+                        </div>
+<div class="col-lg-6">
+                          <label class="">Tanggal Selesai :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001/AK/PR/0626">
+                      </div>
+                        </div>
+                        </div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						 <div class="form-group row">
+						
+<div class="col-lg-3">
+                          <label class="">Hari Berlalu :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="29">
+                      </div>
+                        </div>
+<div class="col-lg-3">
+                          <label class="">Hari Tersisa :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="365">
+                      </div>
+                        </div>
+<div class="col-lg-6">
+                          <label>Progres Keseluruhan :</label>
+                         <div class="progress">
+													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div>
+                        </div>
+                        </div>
+												
+                    
+						
+																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+																										<div class="form-group row">
+						
+						
+						
+                        </div>
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+
+					  
+						
+						
+						
+						
+                             
+                                
 											
+											</div>
+
+
+
+								</div>
+
+								<!--End:: App Content-->
+							</div>
+											</div>
 											<div class="tab-pane" id="m_tabs_6_3" role="tabpanel">
 												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
 									<div class="row">
 										<div class="col-lg-12">
-<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+                <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Gant Chart</div><br>
+
+                    <div class="kt-portlet__body">
+                      <div class="content-i">
+            <div class="content-box">
+              <div class="element-wrapper">
+                <div class="element-box">
+                  <div id="fullCalendar"></div>
+                </div>
+              </div>
+						</div>
+					</div>
+
+                    </div>
+
+									</div>
+
+							<!--end:: Portlet-->
+
+
+          </div>
+
+
+
+								</div>
+
+								<!--End:: App Content-->
+							</div>
+											</div>
+											<div class="tab-pane" id="m_tabs_6_4" role="tabpanel">
+												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+									<div class="row">
+										<div class="col-lg-12">
+                <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 				<br>
-					<div class="kt-portlet__body">
+                   
+                      <div class="row">
+								<div class="col-xl-12">
+
+ <div class="kt-portlet__body">
 						<div class="kt-portlet__content">
 							<div class="form-group row">
 							<div class="col-xl-10">&nbsp;
@@ -265,8 +495,8 @@ function goBack() {
 										</div>
    
  <div class="col-xl-2" style="text-align:right;">
- <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#modal_tambah_team">
-											<i class="fa fa-plus-circle"></i>Tambah Team
+ <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#modal_tambah_tugas">
+											<i class="fa fa-plus-circle"></i>Tambah Tugas
 										</a>
  
 										</div>
@@ -351,233 +581,6 @@ function goBack() {
 																			</table>
 						</div>
 					</div>
-				</div>
-                
-
-                    </div>
-
-									</div>
-
-							<!--end:: Portlet-->
-
-
-          </div>
-											</div>
-											<div class="tab-pane" id="m_tabs_6_4" role="tabpanel">
-												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
-									<div class="row">
-										<div class="col-lg-12">
-                <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Pendidikan</div><br>
-                   
-                      <div class="row">
-								<div class="col-xl-12">
-
- <div class="kt-portlet__body">
- <div>&nbsp;</div>
-											<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
-										<thead>
-											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" bgcolor="#f7fcff">Jenjang<br>Pendidikan</th>
-											  <th width="5%" bgcolor="#f7fcff">Jurusan / Fakultas</th>
-											  <th width="3%" bgcolor="#f7fcff">Tahun Masuk</th>
-											  <th width="3%" bgcolor="#f7fcff">Tahun Lulus</th>
-
-											  <th width="5%" bgcolor="#f7fcff">Nama Sekolah / Universitas </th>
-											  <th width="3%" bgcolor="#f7fcff" rowspan="2">Upload Ijazah</th>
-											  <th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-
-										  </tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td style="text-align:center" id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-										  </tr>
-											<tr>
-												<td style="text-align:center" id="kt_table_1">2</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-										  </tr>
-										  <tr>
-												<td style="text-align:center" id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-										  </tr>
-										  <tr>
-												<td style="text-align:center" id="kt_table_1">4</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-										  </tr>
-
-										</tbody>
-									</table>
-
-                   
-							<!--end:: Portlet-->
-										</div>
 
 
 
@@ -852,92 +855,109 @@ function goBack() {
 
           </div>
 											</div>
-											<div class="tab-pane" id="m_tabs_6_7" role="tabpanel">
+<div class="tab-pane" id="m_tabs_6_7" role="tabpanel">
 												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
 									<div class="row">
 										<div class="col-lg-12">
-                <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Login Aplikasi</div><br>
-
-                    <div class="kt-portlet__body">
-                      <div class="row">
-								<div class="col-xl-12">
-									<!--begin::Portlet-->
-										
-										<div class="kt-portlet__body">
-											<div class="kt-section kt-section--first">
-															<div class="kt-section__body">
-																
-
-																<div class="form-group row">
-						<div class="col-lg-3">
-                          <label>No. Handphone :</label>
-                          <div class="form-group">
-																							<div class="input-group email">
-																								<input type="text" class="form-control form-control-sm" placeholder="xxx@xxx.xxx">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="fa fa-mobile-alt"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div>
-                        </div>
-                       <div class="col-lg-3">
-                          <label>Email Lupa Password :</label>
-                          <div class="form-group">
-																							<div class="input-group email">
-																								<input type="text" class="form-control form-control-sm" placeholder="xxx@xxx.xxx">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-envelope"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div>
-                        </div>
-						<div class="col-lg-3">
-                          <label>Password Login :</label>
-						  <div class="form-group">
-																							<div class="input-group pass">
-																								<input type="text" class="form-control form-control-sm" placeholder="*****">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-eye-slash"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div>
-                          
-                        </div>
-						<div class="col-lg-3">
-                          <label>Ulangi Password :</label>
-                          <div class="form-group">
-																							<div class="input-group pass">
-																								<input type="text" class="form-control form-control-sm" placeholder="*****">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-eye-slash"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-
-
-															</div>
-														</div>
-
-                      </div>
-                  
-							<!--end:: Portlet-->
+<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+				<br>
+					<div class="kt-portlet__body">
+						<div class="kt-portlet__content">
+							<div class="form-group row">
+							<div class="col-xl-10">&nbsp;
+ 
+ 
+										</div>
+   
+ <div class="col-xl-2" style="text-align:right;">
+ <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#modal_tambah_team">
+											<i class="fa fa-plus-circle"></i>Tambah Team
+										</a>
+ 
 										</div>
 
+										
+										
+										</div>
+							<table class="table table-striped table-bordered table-hover table-checkable">
+																				<thead>
+																					<tr>
+																					  <th width="2%" bgcolor="#f7fcff">#</th>
+																					  <th width="2%" bgcolor="#f7fcff">Pegawai</th>
+																					  <th width="14%" bgcolor="#f7fcff">Nama Pegawai</th>
+																					  <th width="15%" bgcolor="#f7fcff">Department</th>
+																					  <th width="9%" bgcolor="#f7fcff">Divisi</th>
+																						<th width="15%" bgcolor="#f7fcff">Jabatan</th>
+																						<th width="10%" bgcolor="#f7fcff">Sertifikat Keahlian</th>
+																						<th width="10%" bgcolor="#f7fcff">Jabatan Pada Project</th>
+																						<th width="1%" bgcolor="#f7fcff">Aksi</th>
+																					</tr>
+																				</thead>
+																				<tbody>
+																					<tr>
+																					  <td style="text-align:right"; align="center">1</td>
+																					  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000001" data-html="true">
+														<img src="../assets/img/users/100_15.jpg" alt="image">
+													</a></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direksi" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Teknologi & Riset" /></td>
+																						<td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Chief Technology Officer" /></td>
+																						<td><div class="custom-file">
+													<input type="file" class="custom-file-input" id="customFile">
+													<label class="custom-file-label" for="customFile"></label>
+												</div></td>
+																						<td align="center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Project Director" /></td>
+																						<td style="text-align:center">
+																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
+																									</td>
+																			      </tr>
+																					<tr>
+																					  <td style="text-align:right"; align="center">2</td>
+																					  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000002" data-html="true">
+														<img src="../assets/img/users/100_5.jpg" alt="image">
+													</a></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Oklan Zulkifli, SE" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direksi" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direksi" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Chief Executive Officer" /></td>
+																					  <td><div class="custom-file">
+													<input type="file" class="custom-file-input" id="customFile">
+													<label class="custom-file-label" for="customFile"></label>
+												</div></td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Project Manager" /></td>
+																					  <td style="text-align:center">
+																									  <a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
+																								  </td>
+																			      </tr>
+<tr>
+																					  <td style="text-align:right"; align="center">3</td>
+																					  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000003" data-html="true">
+														<img src="../assets/img/users/100_3.jpg" alt="image">
+													</a></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Andi Marwan Arsyad, ST" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha dan Kerja Sama" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Kerja Sama" /></td>
+																					  <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Business Relationship Manager" /></td>
+																					  <td><div class="custom-file">
+													<input type="file" class="custom-file-input" id="customFile">
+													<label class="custom-file-label" for="customFile"></label>
+												</div></td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Project Manager" /></td>
+																					  <td style="text-align:center">
+																									  <a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
+																								  </td>
+																			      </tr>
+																					
+																</tbody>
+																<tfoot style="border-top: 2px solid #5867dd">
+																</tfoot>
 
-
-								</div>
+																			</table>
+						</div>
+					</div>
+				</div>
+                
 
                     </div>
 
@@ -947,14 +967,8 @@ function goBack() {
 
 
           </div>
-
-
-
-								</div>
-
-								<!--End:: App Content-->
-							</div>
 											</div>
+											
 										</div>
 									</div>
 								</div>
@@ -1130,6 +1144,7 @@ function goBack() {
 							
 									
         </div>
+
 <!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
@@ -1423,9 +1438,78 @@ function goBack() {
 <!--end: Datatable -->
 </div>
 </div>
+</div>
+<div class="modal fade" id="modal_tambah_tugas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH TUGAS</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										
+										<div class="kt-portlet__body">
+											
+											<div class="form-group row">
+												<div class="col-lg-6">
+														<label>Nama Pegawai :</label>
+														<div class="kt-input-icon kt-input-icon--right">
+														<input type="text" class="form-control form-control-sm" placeholder="Search..." id="generalSearch">
+														<span class="kt-input-icon__icon kt-input-icon__icon--right">
+															<span><i class="la la-search"></i></span>
+														</span>
+													</div>
+
+												</div>
+
+												<div class="col-lg-6">
+														<label>Jabatan :</label>
+														<input type="email" class="form-control form-control-sm" disabled="disabled" placeholder="Auto Complete" >
+
+												</div>
+
+
+												</div>
+												
+
+									</div>
+										<div class="modal-footer modal-footer-center">
+											<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
+											<button type="button" class="btn btn-success btn-sm"><i class="fa fa-check"></i>  Simpan</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 2-->
+
+<!--end: Datatable -->
+</div>
+</div>
 
 </div>
 <!--begin::Page Scripts(used by this page) -->
-
 <?php require '../layouts/footer.php' ?>
+<script src="../assets/dist/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+		    <script src="../assets/dist/bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+		    <script src="../assets/dist/main/main.js?version=4.4.0"></script>
+		    <script>
+		      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		      ga('create', 'UA-XXXXXXX-9', 'auto');
+		      ga('send', 'pageview');
+		    </script>
 <?php require '../layouts/foot.php' ?>
